@@ -10,4 +10,6 @@
 #create feature branch: 
     # Switch and create a new branch: git checkout -b create-users-table-model
     #Switch between branches: git checkout <branchname>
+    #Commit changes in feature branch
+    # checkout to master
     
