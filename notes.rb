@@ -5,3 +5,9 @@
     # Table name is plural: articles
     
 # RESTFUL routes is a mapping of http verbs get post, etc. to CRUD actions
+
+
+#create feature branch: 
+    # Switch and create a new branch: git checkout -b create-users-table-model
+    #Switch between branches: git checkout <branchname>
+    
