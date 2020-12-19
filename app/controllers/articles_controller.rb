@@ -16,6 +16,7 @@ class ArticlesController < ApplicationController
 
     def create
         @article = Article.new(article_params)
+        @article.user = User.first
         if @article.save
             flash[:notice] = "Article was created successfully" #notice and alert are the common keys used
             redirect_to @article #extracts the id from the @article object 
