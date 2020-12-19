@@ -13,5 +13,5 @@
     #Commit changes in feature branch
     # checkout to master
     # git merge <feature branch>
-    # commit and push again
+   
     
