@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+    before_save { self.email = email.downcase } #self refernces each object of the user class before saving it runs the downcase method
     has_many :articles
     validates :username, presence: true, 
                         uniqueness: { case_sensitive: false }, 
