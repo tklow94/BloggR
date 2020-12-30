@@ -1,6 +1,12 @@
 require 'test_helper'
 #integration tests the whole business process for a feature that can include multiple functions.
 class CreateCategoryTest < ActionDispatch::IntegrationTest
+  setup do
+    @admin_user = User.create(username: "johnhenry", email: "jh@gmail.com", password: "password", admin: true)
+
+    sign_in_as(@admin_user)
+  end
+
   test "get new category form and create category" do
     get "/categories/new"
     assert_response :success
