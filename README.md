@@ -18,8 +18,9 @@ Social media is an industry I am fascinated with because of it's ability to empo
 # - Postgresql
   Postgresql is a program that allows me to easily create a relational database and view my data in clear and distinct tables. Assist with deploying to Heroku.
 
-# - Boostrap
-    Ability to dispatch easy to customize, ready to use, and professional styling components. Helped speed up production of my application.
+# - Bootstrap
+  Ability to dispatch easy to customize, ready to use, and professional styling components. Helped speed up production of my application.
+
 
 # Features
 ---
