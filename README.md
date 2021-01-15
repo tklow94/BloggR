@@ -12,7 +12,7 @@ Social media is an industry I am fascinated with because of it's ability to empo
 
 # Tehcnologies Used
 ---
-# - Ruby
+# - Ruby on Rails
   Ruby is a flexible OOP language that allowed me to execute a proof of concept fairly quickly. Rails is a development framework which makes abstracting out tasks much easier and allows me to DRY up my code. Allowed me to easily add unit, integration, and functional tests.
 
 # - Postgresql
